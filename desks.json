@@ -17,9 +17,21 @@
                 "shape": "rectangle_long"
             }
         },
-        
+        "2": {
+            "name": "4 místa",
+            "coach": "",
+            "layout": {
+                "position": {
+                    "x": 1,
+                    "y": 0
+                },
+                "rotation": 0,
+                "chairs": 4,
+                "shape": "rectangle_long"
+            }
+        },
         "3": {
-            "name": "2 místa",
+            "name": "4 místa",
             "coach": "",
             "layout": {
                 "position": {
@@ -27,7 +39,7 @@
                     "y": 0
                 },
                 "rotation": 0,
-                "chairs": 2,
+                "chairs": 4,
                 "shape": "rectangle_long"
             }
         },
