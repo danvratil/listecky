@@ -1,7 +1,7 @@
 {
     "size": {
-        "x": 2,
-        "y": 1
+        "x": 1,
+        "y": 2 
     },
     "desks": {
         "1": {
@@ -22,8 +22,8 @@
             "coach": "",
             "layout": {
                 "position": {
-                    "x": 1,
-                    "y": 0
+                    "x": 0,
+                    "y": 1 
                 },
                 "rotation": 0,
                 "chairs": 4,
