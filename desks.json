@@ -1,11 +1,11 @@
 {
     "size": {
         "x": 1,
-        "y": 2 
+        "y": 1 
     },
     "desks": {
         "1": {
-            "name": "4 místa",
+            "name": "8 místa",
             "coach": "",
             "layout": {
                 "position": {
@@ -13,20 +13,7 @@
                     "y": 0
                 },
                 "rotation": 0,
-                "chairs": 4,
-                "shape": "rectangle_long"
-            }
-        },
-        "2": {
-            "name": "4 místa",
-            "coach": "",
-            "layout": {
-                "position": {
-                    "x": 0,
-                    "y": 1 
-                },
-                "rotation": 0,
-                "chairs": 4,
+                "chairs": 8,
                 "shape": "rectangle_long"
             }
         }
