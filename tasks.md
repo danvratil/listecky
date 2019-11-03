@@ -87,9 +87,9 @@
 # 02 Vytvoříme základní strukturu stránky
 
 1. Vytvoř nadpis nejvyšší úrovně (název webu) z textu „Adéla na cestách“.
-1. Nadpisy 4 hlavních sekcí budou nadpisy 2. úrovně: _O mně, Fotogalerie, Turistický průvodce, Kontakt_
+1. Nadpisy 4 hlavních sekcí budou nadpisy 2. úrovně: _O mně, Fotogalerie_, _Turistický průvodce_, _Kontakt_
+1. V sekcích _Průvodce_ a _Kontakt_ jsou ještě nadpisy 3. úrovně:_Orientační ceník_, _Kontaktní údaje_.
 1. Zbývající texty uvnitř sekcí jsou odstavce. Ceník zatím přeskoč.
-1. V sekcích _Průvodce_ a _Kontakt_ jsou ještě nadpisy 3. úrovně:_Orientační ceník, Oficiální kontakt_.
 1. Patička je jen odstavec. 
 1. Nezapomeň dát vědět, že máš hotovo a nezapomeň na to ani až dokončíš další úkoly.
 
@@ -97,12 +97,19 @@
 
 ---
 
+## Bonus (pokud máš hotovo)
+
+1. Označ nadpisy _E-mail_ a _Mobil_ v sekci _Kontakty_ jako důležitý text
+1. Zalom adresu na víc řádku pomocí značky `<br>` (nový řádek)
+
+----
+
 ## Shrnutí výkladu
 
 ```html
 <ul>
-    <li>položka seznamu</li>
-    <li>další položka seznamu</li>
+	<li>položka seznamu</li>
+	<li>další položka seznamu</li>
 </ul>
 ```
 
@@ -159,7 +166,7 @@
 <img src="adela.jpg" alt="Adéla">
 ```
 
-<kbd>Alt+Shift+↑</kbd>/<kbd>Alt+Shift+↓</kbd> Pohybem nahoru/dolů se přidávají kurzory.
+<kbd>Ctr+Alt+Shift+↑</kbd>/<kbd>Ctrl+Alt+Shift+↓</kbd> Pohybem nahoru/dolů se přidávají kurzory.
 <kbd>Alt+Shift+I</kbd> Vloží kurzor na každý řádek ve výběru
 <kbd>Home</kbd> <kbd>End</kbd> začátek, konec řádku (srovná kurzory na stejnou pozici)
 
@@ -169,10 +176,10 @@
 
 > Pokud jsi nestihla předchozí cvičení, udělej si znovu _fork_ [z této verze](https://repl.it/@tvorimweb1/Adela-cestuje-03)
 
-1. Přidej fotku Adély `foto.jpg` za nadpis O mně
-1. Přidej obrázek `turistika.jpg` za nadpis Turistický průvodce
+1. Přidej fotku Adély `foto.jpg` za nadpis _O mně_
+1. Přidej obrázek `turistika.jpg` za nadpis _Turistický průvodce_
 1. Přidej obrázek `mapa.png` před nadpis _Kontaktní údaje_
-1. Přidej 9 obrázků `hory1-9.jpg` za odstavec v sekci Fotogalerie. Ale použij vícenásobný kurzor! Nevíš, co to je? Za chvíli ti to předvedeme.
+1. Přidej 9 obrázků `hory1-9.jpg` za odstavec v sekci _Fotogalerie_. Ale použij vícenásobný kurzor! Nevíš, co to je? Za chvíli ti to předvedeme.
 ```
 hory1.jpg
 hory2.jpg
@@ -200,9 +207,9 @@ hory9.jpg
 
 ```html
 <head>
-    …
-    <title>Název stránky</title>
-    …
+	…
+	<title>Název stránky</title>
+	…
 </head>
 ```
 
@@ -226,16 +233,16 @@ Abys viděla výsledek, je třeba stránku v samostatném okně. Klikni na ikonu
 
 ```html
 <head>
-    …
-    <link rel="stylesheet" href="nazevsouboru.css">
-    …
+	…
+	<link rel="stylesheet" href="nazevsouboru.css">
+	…
 </head>
 ```
 
 ```css
 p {
-    color: white;
-    background-color: black;
+	color: white;
+	background-color: black;
 }
 ```
 
@@ -261,15 +268,15 @@ Použij barvy ze souboru `podklady/barvy.txt`, ale zkus klidně i svoje vlastní
 
 ```css
 p {
-    font-style: italic;  /* nebo normal */
+	font-style: italic;  /* nebo normal */
 
-    font-weight: bold; /* nebo normal */
+	font-weight: bold; /* nebo normal */
 
-    font-family: sans-serif; /* nebo serif */
+	font-family: sans-serif; /* nebo serif */
 
-    font-size: 1.5rem;
+	font-size: 1.5rem;
 
-    text-align: center; /* nebo left nebo right */
+	text-align: center; /* nebo left nebo right */
 }
 ```
 
@@ -304,9 +311,9 @@ p {
 
 ```html
 <section>
-    <h2>Nadpis</h2>
-    <img src="foto.jpg" alt="fotka">
-    <p>Úryvek novinky…</p>
+	<h2>Nadpis</h2>
+	<img src="foto.jpg" alt="fotka">
+	<p>Úryvek novinky…</p>
 </section>
 
 <header> … </header>
@@ -316,7 +323,7 @@ p {
 
 ```css
 section {
-    background-color: #fff1e6;
+	background-color: #fff1e6;
 }
 ```
 
@@ -372,7 +379,7 @@ Každá sekce bude mít jinou barvu pozadí. Střídavě béžovou a světle hn�
 /* vícenásobný selektor */
 h1,
 a {
-    color: crimson;
+	color: crimson;
 }
 
 /* kontextový selektor */
@@ -419,9 +426,9 @@ a:active { color: yellow; } /* při kliknutí */
 
 ```css
 .tip {
-    width: 300px;
-    height: 100px;
-    max-width: 100%;
+	width: 300px;
+	height: 100px;
+	max-width: 100%;
 }
 ```
 
@@ -442,15 +449,15 @@ a:active { color: yellow; } /* při kliknutí */
 
 ```css
 p {
-    border-width: 1px;
-    border-style: solid;
-    border-color: black;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
 }
 
 /* totéž pomocí shorthandu */
 p {
-    border: 1px solid black;
-    border-radius: 6px;
+	border: 1px solid black;
+	border-radius: 6px;
 }
 ```
 
@@ -492,8 +499,8 @@ p {
 
 ```css
 .tip { 
-    float: left; /* nebo right */
-    margin-bottom: 1rem; /* -top, -right, -bottom -left */
+	float: left; /* nebo right */
+	margin-bottom: 1rem; /* -top, -right, -bottom -left */
 }
 ```
 
@@ -522,8 +529,8 @@ p {
 
 ```html
 <nav>
-    <a href="#omne">O mně</a>
-    <a href="#fotogalerie">Fotogalerie</a>
+	<a href="#omne">O mně</a>
+	<a href="#fotogalerie">Fotogalerie</a>
 </nav>
 
 …
@@ -538,8 +545,7 @@ p {
 
 > Pokud jsi nestihla předchozí cvičení, udělej si znovu _fork_ [z této verze](https://repl.it/@tvorimweb1/Adela-cestuje-15)
 
-1. Vytvoř navigaci pomocí tagu `<nav>`.
-1. Navigaci umísti za úvod.
+1. Mezi hlavičku stránky a sekci _O mně_ přidej navigaci pomocí tagu `<nav>`.
 1. Dovnitř vlož odkazy pro všechny sekce stránky.
 1. Aby ti navigace fungovala, musíš ještě přidat atribut `id` jednotlivým sekcím.
 1. Dej hotovo.
