@@ -289,7 +289,7 @@ p {
 1. Všechny texty na stránce udělej bezpatkovým písmem (`sans-serif`) o velikosti `1.2rem`.
 1. Všechny nadpisy patkovým písmem (`serif`) a kurzívou.
 1. Hlavní nadpis na střed a písmem velkým `5rem`
-1. Nadpisy 2. úrovně jsou na střed a písmem velkým `3rem`.
+1. Nadpisy 2. úrovně jsou písmem velkým `3rem`.
 1. Nadpisy 3. úrovně jsou písmem velkým `1.5rem`.
 1. Odkazy kurzívou.
 1. Dej hotovo.
@@ -520,7 +520,7 @@ p {
 
 ## Bonus
 
-1. Nastav fotce v sekci _O mně_ takový `border-radius`, aby byla úplně kulatá. Tip: použij procenta.
+1. Nastav fotce v sekci _O mně_ menší šířku a takový `border-radius`, aby byla úplně kulatá. Tip: použij procenta.
 1. Fotce v sekci _Turistický průvodce_ nastav `border-radius` jen pro 3 rohy.
 
 ---
